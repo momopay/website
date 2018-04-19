@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVG路径动画 | SVG特效| 网页特效库</title>
+	<meta name="keywords" content="SVG特效, SVG路径动画, css3动画, 网页特效" />
+    <meta name="description" content="Card Expansion Effect with SVG clipPath" />
+    <meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+    <meta name="author" content="Claudio Calautti for Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/card-4.css" />
+    <link rel="stylesheet" type="text/css" href="css/pattern-4.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/momo-home-page.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <link rel="import" href="momo-home-page.html" id="page1"> -->
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+        var root = document.getElementsByTagName('html')[0];
+        root.setAttribute('class', 'ff');
+    };
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- trianglify pattern container -->
+            <div class="pattern pattern--hidden"></div>
+            <!-- cards -->
+            <div class="wrapper">
+                <div class="card">
+                    <div class="card__container card__container--closed">
+                        <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="clipPath6">
+                                    <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                                </clipPath>
+                            </defs>
+                            <!-- <image clip-path="url(#clipPath6)" width="1920" height="1200" xlink:href="img/m.jpg"></image> -->
+                        </svg>
+                        <div class="card__content">
+                             
+						</div>
+					</div>
+                </div>
+            </div>
+            <!-- /cards -->
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- JS -->
+    <script src="js/vendors/trianglify.min.js"></script>
+    <script src="js/vendors/TweenMax.min.js"></script>
+    <script src="js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="js/vendors/cash.min.js"></script>
+    <script src="js/Card-polygon-4.js"></script>
+    <script src="js/demo-4.js"></script>
+</body>
+
+</html>

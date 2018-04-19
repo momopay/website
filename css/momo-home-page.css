@@ -1,0 +1,508 @@
+body{
+	background: #fff;
+}
+/* banner */
+.banner{
+    position: relative;
+
+}
+.banner .nav{
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    z-index: 9999;
+}
+.banner .left{
+	font-size: 28px;
+	color: #fff;
+	padding-left: 160px;
+}
+.logo1{
+	width: 40px;
+	height: 42px;
+	vertical-align: middle;
+}
+.banner .right{
+	float: right;
+	font-size: 16px;
+	padding-right: 160px;
+}
+.banner .right li a{
+	color: #ddd;
+	padding-bottom: 10px;
+}
+.banner .right li{
+	float: left;
+	margin-left: 40px;
+}
+.banner .right li a:hover{
+	color: #fff;
+	border-bottom:2px solid #fff; 
+}
+.contentBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* about */
+.section-1 {
+    padding-top: 80px;
+    padding-bottom: 70px
+}
+.main-title {
+    text-align: center;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+    font-family: Clear Sans, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+.desc-content .main-desc {
+    margin: 0 0 30px;
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Clear Sans, sans-serif;
+}
+
+/* Features */
+.section-2{
+	overflow: auto;
+}
+.section-2 .cl_icon li{
+    height: 320px;
+    width: 320px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-right:120px ;
+    margin-bottom: 70px;
+    display: inline-block;
+}
+.section-2 .cl_icon li:nth-child(3n){
+	margin-right: 0;
+}
+.section-2 .icon{
+	width: 180px;
+	height: 180px;
+}
+.cl_icon li:hover .msgBox {
+    display: block;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msgBox {
+    top: 0;
+    left: 0;
+    color: #fff;
+    height: 320px;
+    width: 320px;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    /* border-radius: 6px; */
+    background: #0b6ed3;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    /* box-shadow: 0 0 30px rgba(0,0,0,0.4); */
+	color: #fff;
+}
+.msg-title ,.icon_name{
+	font-size:24px;
+}
+.msg{
+	font-size: 16px;
+}
+
+/* Roadmap */
+.section-3{
+	padding-bottom: 200px;
+	position: relative;
+}
+.roadmapBox{
+	background: url('../images/bg-roadmap.png')no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 650px;
+	margin-top: 140px;
+}
+.roadmapBox .dot{
+	width: 12px;
+	height: 13px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.section-3 .left{
+	padding-left: 70px;
+	padding-top: 40px;
+}
+.roadmapBox .time{
+	font-size: 32px;
+	color: #0b6ed3;
+}
+.cl_list{
+	padding-top: 16px;
+	font-size: 18px;
+	color: #666;
+	line-height: 1.5;
+}
+.cl_list p{
+   font-size: 16px;
+   color: #666;
+}
+.modular2{
+	margin-top: 44px;
+}
+.modular3{
+	margin-left: 275px;
+	margin-top: -12px;
+}
+.section-3 .right{
+	position: absolute;
+	top: 250px;
+	left: 800px
+}
+.modular5{
+	margin-top: 80px;
+}
+.center{
+	position: absolute;
+    top: 290px;
+    left: 536px;
+    font-size: 36px;
+    color: #fff;
+}
+
+/* team */
+.section-4{
+	background: #0b6ed3;
+}
+.teamBox{
+	padding: 100px 0;
+	color: #fff;
+	text-align: center;
+}
+.personal{
+	overflow: auto;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+.section-4 .personal li{
+	width: 250px;
+	height: 300px;
+	border: 10px solid #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: 60px;
+	float: left;
+	position: relative;
+    background: #fff;
+}
+.section-4 .personal li:nth-child(4n){
+	margin-right: 0;
+}
+.personal li:hover .personal-information {
+    display: block;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.personal-information{
+    top: -10px;
+    left: -10px;
+    color: #fff;
+    width: 250px;
+	height: 300px;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    /* box-shadow: 0 0 30px rgba(0,0,0,0.4); */
+	color: #fff;
+}
+.personalBox{
+	height: 240px;
+	padding:0 30px;
+}
+.personal_icon{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+.personalMsg{
+	font-size: 14px;
+	color: #666;
+	padding-top: 20px;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.iconBox img{
+	vertical-align: middle;
+}
+.section-4 .personal .iconBox{
+	height: 60px;
+	line-height: 60px;
+	background: #0355a9;
+	padding: 0 30px;
+}
+.section-4 .personal .iconBox .icon{
+	width: 20px;
+	height: 20px;
+}
+/* join */
+.section-5{
+	height: 300px;
+	background: #fff;
+}
+.jionBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+.section-5 .left{
+	padding-top: 110px;
+	text-align: left;
+	display: inline-block;
+}
+.section-5 .left .join-title{
+	font-size: 32px;
+}
+.section-5 .right img{
+	width:48px;
+	height: 48px; 
+}
+.section-5 .right li{
+	margin-right:30px;
+	float: left;
+}
+.section-5 .right li:nth-child(6n){
+	margin-right: 0;
+}
+.section-5 .right{
+	float: right;
+	padding-top: 120px;
+}
+.section-5 .right img:hover{
+	transform: scale(1.458);  
+}
+
+/* wallets */
+.section-6{
+	background: #e8f1fa;
+	padding: 100px 0 132px;
+}
+.walletsBox{
+	text-align: center;
+
+}
+.downloadBox{
+	padding-top: 80px;
+	overflow: auto;
+	text-align: center;
+	width: 1400px;
+	margin: 0 auto;
+}
+.downloadBox li{
+	background: #fff;
+	width: 300px;
+	height: 350px;
+	position: relative;
+	float: left;
+	margin-right: 60px;
+}
+.downloadBox li:nth-child(4n){
+	margin-right: 0;
+}
+.downloadBox .download{
+	width: 120px;
+	height: 120px;
+	padding-top: 40px;
+}
+.downloadBox h2{
+	margin-top: 40px;
+}
+.version-number{
+	font-size: 16px;
+	color: #888;
+}
+.btn-download{
+	width: 160px;
+	height: 36px;
+	line-height: 36px;
+	color: #0b6ed3;
+	border: 1px solid #0b6ed3;
+	display: inline-block;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.downloadBox li:hover .btn-download{
+    background: #0b6ed3;
+    color: #fff;
+}
+
+/* momo pay */
+.section-7{
+   padding: 100px 0 210px;
+}
+.payBox{
+	text-align: center;
+}
+.pay_icon{
+	width:380px;
+	height: 190px; 
+	margin-top: 80px;
+}
+.btn-pay {
+    margin-top: 100px;
+}
+.btn-pay span{
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+	color: #0b6ed3;
+	border: 1px solid #0b6ed3;
+	text-align: center;
+	border-radius: 30px;
+	padding: 16px 32px;
+}
+.btn-pay .btn1{
+	margin-right: 80px;
+}
+.btn-pay span:hover{
+	background: #0b6ed3;
+	color: #fff;
+}
+
+/* get moc */
+.section-8{
+	padding-bottom: 94px;
+}
+.getBox{
+	text-align: center;
+	width: 1400px;
+	margin: 0 auto;
+}
+.cryp_icon{
+	width: 232px;
+	height: 80px;
+}
+.getBox .getMsg{
+	margin-top: 60px;
+	overflow: auto;
+}
+.getBox .getMsg li{
+	float: left;
+	margin-right: 60px;
+}
+.getBox .getMsg li:nth-child(5n){
+	margin-right: 0;
+}
+.getBox .getMsg p{
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+/* footer */
+.section-9{
+	background: #0b6ed3;
+	padding: 100px 0;
+}
+.footerBox {
+	text-align: center;
+}
+.section-9 p{
+    font-size: 16px;
+}
+.section-9 .main-title{
+	color: #fff;
+}
+.footerBox .iconBox{
+	margin-top: 60px;
+}
+.iconBox span{
+	margin-right: 80px;
+}.iconBox span:nth-child(4n){
+	margin-right: 0;
+}
+.iconBox .minepool_icon{
+	width: 240px;
+	height: 40px;
+}
+.iconBox .oxpool_icon{
+	width: 170px;
+	height: 40px;
+}
+.momo_icon{
+	width: 130px;
+	height: 40px;
+}
+.pool_icon{
+    width: 160px;
+	height: 40px;
+}
+.lastBox{
+	/* height: 52px;
+	line-height: 52px; */
+	background: #333;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0;
+}
+.got-back {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    z-index: 9999;
+}
+.navbar-gobyte-purple {
+    background: rgba(0, 0, 0, .5) !important;
+    color: #fff !important;
+}
+.add{
+	background: #a9aeb4;
+}
+.joinIn{
+	width: 260px;
+    height: 60px;
+	font-size: 20px;
+    line-height: 60px;
+    border: 1px solid #f5532d;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.joinIn a{
+	padding: 15px 40px;
+    color: #f5532d;
+}
+.joinIn:hover{
+	background: #f5532d;
+	color: #fff;
+}
+.joinIn a:hover{
+	color: #fff;
+}

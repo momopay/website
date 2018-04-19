@@ -1,0 +1,446 @@
+.container{
+	margin: 0 auto;
+	max-width: 750px;
+	position: relative;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+.banner{
+	position: relative;
+}
+.logo{
+	background-color: #0b6ed3;
+	width: 100%;
+	max-width: 750px;
+	position: fixed;
+	top: 0;
+	padding: 0.75rem .5rem;
+	box-sizing: border-box;
+	z-index: 9;
+}
+.logox {
+	background: rgba(0, 0, 0, .5);
+}
+.logo .logo_nav{
+	box-sizing: border-box;
+	height: 5.3333%;
+	width:  5.3333%;
+}
+.logo .logo_nav>img{
+	height: 1rem;
+	width: 1rem;
+}
+.logo .logo_img{
+	position: absolute;
+	right: .5rem;
+	color: #fff;
+	font-size: 14px;
+}
+.logo .logo_img>i{
+	display: inline-block; 
+	height: 1.05rem;
+	width: 1rem;
+	background: url('../images/logo.png') no-repeat 0 0;
+	overflow: hidden;
+    vertical-align: middle;
+    margin-right: .25rem;
+    background-size: 100%;
+}
+.menu{
+	background: #000;
+	opacity: .8;
+	width: 8.5rem;
+	position: fixed;
+	top: 2rem;
+	margin-left: .5rem;
+	z-index: 10;
+}
+.menu ul{
+	padding: .5rem;
+	margin: 0 auto;
+}
+.menu ul li{
+	text-align: center;
+	color: #fff;
+	height: 1.5rem;
+	line-height: 1.5rem;	
+	border-bottom: 1px rgba(255,255,255,.4) solid;
+}
+.menu ul li:last-child{
+	border-bottom: none;
+}
+.menu ul li a{
+	color: #fff;
+	font-size: .7rem;
+}
+.content_about{
+	padding: 2.5rem 0 3rem 0;
+}
+.content_about h1, .content_features h1,.content_roadmap h1,.wallets h1,.money_pay h1,.get_momo h1{
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content_about p{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.content_features{
+	margin-bottom: 2.975rem;
+}
+.content_nav ul{
+	box-sizing: border-box;
+}
+.content_nav ul li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	display:inline;
+	width:42%;  /*315/750*/
+	/*height:220px;*/
+	margin-top: 5.33333333333333%;  /*40/375*/
+	margin-left: 5.33333333333333%;
+	box-sizing: border-box;
+}
+.content_nav ul li a>span{
+	margin: 0 auto;
+}
+.content_nav ul li a>span>img{
+	width:57.14285714285714%;
+	padding-top: 9.52380952380952%;
+}
+.content_nav ul li a>h3{
+	padding-top: 9.52380952380952%;
+	font-size: 14px;
+	color: #0b6ed3;
+}
+.content_nav ul li a>p{
+	color: #888;
+	font-size: 12px;
+	width: 87.3015873015873%;
+	padding: 0 7.27272727272727%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.content_roadmap{
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 80%;
+}
+.roadmap_first{
+	border-right: 1px solid #85b6e9;
+	border-bottom: 1px solid #85b6e9;
+	margin: 0 auto;
+	margin-top: 2.1rem;
+	text-align: center;
+	position: relative;
+}
+.roadmap_first span{
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	margin-bottom: 1.4rem;
+	background: #0b6ed3;
+	display: block;
+	width: 29.33333333333333%;
+	position: absolute;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	left:50%;
+	margin-top: -0.7rem;
+	margin-left: -14.66666666666667%;
+}
+.roadmap_first .roadmap_content{
+	padding-top: 1.4rem;
+	box-sizing: border-box;
+}
+.roadmap_first ul{
+	padding-left: 
+}
+.roadmap_first ul li{
+	list-style-type: none;
+	color: #888;
+	text-align: left;
+	box-sizing: border-box;
+	padding-bottom: .5rem;
+}
+.roadmap_first .roadmap_content ul li>i{
+    display: inline-block;
+    height: .3rem;
+    width: 0.325rem;
+    background: url(../images/dot.png) no-repeat 0 0;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 1.33333333333333%;
+    background-size: 100%;
+    margin-left: 4%; 
+    box-sizing: border-box;
+}
+.border_first {
+    width: 50%;
+    height: 1px;
+    background: #85b6e9;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.border_second{
+	width: 50%;
+    height: 1px;
+    background: #85b6e9;
+    position: absolute;
+    z-index: -1;
+}
+.roadmap_second{
+	border-right: none;
+	border-left: 1px solid #85b6e9;
+}
+.our_team{
+	margin-top: 3rem;
+	background: #0b6ed3;
+	color: #fff;
+	text-align: center;
+}
+.our_team>h2,.pool>h2{
+	padding-top: 1.5rem;
+	font-weight: bold;
+	font-size: 16px;
+}
+.our_team>p{
+	padding: 1rem 1.5rem;
+	font-size: 12px;
+}
+.our_team .our_team_intro{
+	padding-bottom: 2rem;
+}
+.our_team .our_team_intro ul li{
+	background: #fff;
+	float:left;
+	list-style:none;
+	text-align:center;
+	display:inline;
+	width:42%;  /*315/750*/
+	margin-top: 5.33333333333333%;  /*40/375*/
+	margin-left: 5.33333333333333%;
+	padding-top: 1rem;
+	box-sizing: border-box;
+}
+.our_team .our_team_intro ul li a>span>img{
+	border-radius: 50%;
+	width: 63.492%;
+}
+.our_team .our_team_intro ul li a>h4{
+	padding-top: .75rem;
+	font-size: 16px;
+	color: #222;
+}
+.our_team .our_team_intro ul li a>p{
+	color: #888;
+	font-size: 12px;
+	padding-bottom: 1rem;
+	height: 54px;
+}
+.our_team_intro_medium{
+	background: #0355a9;
+	font-size: 0;
+	height: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.our_team_intro_medium > span{
+	display: inline-block;
+	margin-right: 4%;
+	box-sizing: border-box;
+}
+.our_team_intro_medium > span >img{
+	width: .75rem;
+	background-size: 100%;
+}
+.join_our{
+	color: #888;
+	text-align: center;
+}
+.join_our>h5{
+	padding-top: 1.333333333333333rem;
+	color: #333;
+	font-size: 16px;
+}
+.join_our>p{
+	padding-top: .75rem;
+	font-size: 12px;
+}
+.join_our_media{
+	margin-top: 1.5rem;
+	font-size: 0;
+}
+.join_our_media>span{
+	display: inline-block;
+	margin-right: 4%;
+}
+.join_our_media>span>img{
+	width: 1.75rem;
+}
+.wallets{
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	color: #888;
+	font-size: .5rem;
+	text-align: center;
+	background: #e8f1fa;
+}
+.wallets>p{
+	padding: 1rem 1.5rem 1.5rem 1.5rem; 
+}
+.wallets_platform ul li{
+	background: #fff;
+	float:left;
+	list-style:none;
+	text-align:center;
+	display:inline;
+	width:42%;  /*315/750*/
+	margin-top: 5.33333333333333%;  /*40/375*/
+	margin-left: 5.33333333333333%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+}
+.wallets_platform ul li>span>img{
+	width: 38.0952380952381%;
+}
+.wallets_platform ul li>h6{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 1rem;
+}
+.wallets_platform ul li>p{
+	margin-top: .5rem;
+	color: #888;
+}
+.wallets_platform ul li>button{
+	margin-top: .5rem;
+	border-radius: 0.45rem;
+	border:1px solid #0b6ed3;
+	color: #0b6ed3;
+	font-size: .5rem;
+	width: 50.79365079365079%;
+	height: 18px;
+	line-height: 17px;
+	background: #fff;
+}
+.money_pay{
+	padding-top: 2.5rem;
+	text-align: center;
+}
+.money_pay>p{
+	color: #888;
+	font-size: 12px;
+	padding:1rem 1.5rem 1.5rem 1.5rem;
+}
+.money_pay>img{
+	margin: 0 auto;
+	display: block;
+	width: 50.66666666666667%;
+}
+.money_pay>span>button{
+	margin-top: 2rem;
+	margin-right: 1rem;
+	width: 32%;
+	height: 30px;
+	border-radius: .75rem;
+	border:1px solid #0b6ed3;
+	color: #0b6ed3;
+	font-size: .5rem;
+	background:#fff;
+}
+.get_momo{
+	margin-top: 2.5rem;
+	font-size: 0;
+}
+.get_momo>p{
+	text-align: center;
+	color: #888;
+	font-size: 12px;
+	padding: 1rem 1.5rem 0 1.5rem;
+	display: block;
+}
+.momo_url{
+	padding-top: 2rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.momo_url>span{
+	display: inline-block;
+	width: 30.93333333333333%;
+	margin: 0 auto;
+	text-align: center;
+	margin-right: 0.175rem;
+}
+.momo_url>span:first-child{
+	margin-left: .5rem;
+}
+/*.momo_url>span>img{
+	width: 67.41573033707865%;
+}*/
+/*.momo_url>span>p{
+	font-size: 12px;
+	color: #333;
+}*/
+.pool{
+	margin: 0 auto;
+	margin-top: 2rem;
+	text-align: center;
+	color: #fff;
+	background: #0b6ed3;
+}
+.pool>p{
+	padding: 1rem 1.5rem;
+}
+.pool_img{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+	padding-bottom: 1.5rem;
+}
+.pool_img>span{
+	margin: 0 auto;
+	vertical-align:middle;
+	display: inline-block;
+	margin-right: 4%;
+}
+.pool_img>span:last-child{
+	margin-right: 0;
+}
+.pool_img>span>img{
+	background-size: 100%;	
+    display: inline-block;
+    vertical-align:middle;
+}
+.pool_img .pool_img1{
+	width: 13.86666666666667%;
+}
+.pool_img .pool_img2{
+	width: 25.33333333333333%;
+}
+.pool_img .pool_img3{
+	width: 17.86666666666667%;
+}
+.pool_img .pool_img4{
+	width: 17.06666666666667%;
+}
+.copyright{
+	/*height: 1.65rem;*/
+	/*line-height: 1.65rem;*/
+	background: #222;
+	color: #fff;
+	font-size: 0.45rem;
+	text-align: center;
+	padding:.5rem 1.5rem;
+}
